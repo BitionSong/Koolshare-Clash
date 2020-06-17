@@ -29,7 +29,7 @@ pack)
     #    exit 1
     #fi
 
-    tar zcvf ../koolclash.tar.gz koolclash
+    tar zcvf "../${RANDOM}.tar.gz" koolclash
     cd ..
     rm -rf koolclash-build
     echo '----------------------------------------'
